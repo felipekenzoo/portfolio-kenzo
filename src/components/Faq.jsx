@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Question from "./Question";
+import Question from "./Question.jsx";
 import '../css/faq.css'
 
 const faqData = [
@@ -40,7 +40,7 @@ function Faq() {
         <>
             <section className="s-faq" id="faq">
                 <div className="container">
-                        <div className="left">
+                        <div className="left" data-aos="fade-right">
                             <div className="top">
                                 <h1>Perguntas<br/> frequentes</h1>
                                 <p>Separei aqui as principais dúvidas que clientes costumam ter sobre meu trabalho, prazos e forma de atuação. Assim você já entende como trabalho antes mesmo de entrarmos em contato.</p>
@@ -52,12 +52,13 @@ function Faq() {
                                 ">Me envie um email</a>
                             </div>
                         </div>
-                        <div className="right">
+                        <div className="right" data-aos="fade-left">
                             {faqData.map((faq, index) => (
                                 <Question
                                     key={index}
                                     question={faq.question}
                                     answer={faq.answer}
+                                    aosDelay={50 * index}
                                     isOpen={openQuestionIndex === index}
                                     onClick={() => handleToggle(index)}
                                 />

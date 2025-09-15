@@ -1,5 +1,9 @@
-import { StrictMode } from 'react'
+import { StrictMode, useEffect } from 'react'
 import { createRoot } from 'react-dom/client'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
 import Diferenciais from './components/Diferenciais.jsx'
@@ -14,17 +18,31 @@ import './css/reset.css'
 import './css/grid.css'
 import './css/colors.css'
 
+function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: true,
+    });
+  }, []);
+
+  return (
+    <>
+      <Header/>
+      <Hero/>
+      <About />
+      <SectionCases />
+      <Processo />
+      <Diferenciais/>
+      <Faq/>
+      <Cta />
+      <Footer />
+    </>
+  );
+}
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <Header/>
-     <Hero/>
-    <About />
-    <SectionCases />
-    <Processo />
-    <Diferenciais/>
-    <Faq/>
-    <Cta />
-     <Footer />
+    <App />
   </StrictMode>,
 )

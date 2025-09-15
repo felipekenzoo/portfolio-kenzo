@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import '../css/header.css';
+import logoHeader from '../imgs/logo-header.svg'
+
 
 function Header() {
     const [menuAberto, setMenuAberto] = useState(false);
@@ -19,7 +21,7 @@ function Header() {
             <header>
                 <div className="container">
                     <a href="/" aria-label="Página inicial">
-                        <img src="./src/imgs/logo-header.svg" alt="Logo do header" />
+                        <img src={logoHeader} alt="Logo do header" />
                     </a>
                     <button
                         className={`menu-hamburguer ${menuAberto ? 'aberto' : ''}`}

@@ -1,10 +1,10 @@
 import '../css/faq.css';
 import arrowIcon from '../imgs/icon-pergunta.svg';
 
-function Question({ question, answer, isOpen, onClick }) {
-
-    return (
-        <div className={`faq-item ${isOpen ? 'open' : ''}`}>
+function Question({ question, answer, isOpen, onClick, aosDelay }) {
+    return ( 
+        <div data-aos="fade-up" data-aos-delay={aosDelay}>
+            <div className={`faq-item ${isOpen ? 'open' : ''}`}>
             <div className="faq-question" onClick={onClick}>
                 <div className="question-title">
                     <h4 className="pergunta">{question}</h4>
@@ -16,6 +16,7 @@ function Question({ question, answer, isOpen, onClick }) {
                 </div>
             </div>
             <div className="faq-resposta"><p className='resposta'>{answer}</p></div>
+            </div>
         </div>
     );
 }

@@ -4,6 +4,7 @@ html {
 
 header {
     background: var(--zinc-950);
+    position: relative;
     border-bottom: 1px solid var(--zinc-800);
     z-index: 1000;
 }

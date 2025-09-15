@@ -70,7 +70,7 @@
 
 @media (max-width: 768px) {
     .s-cta .container {
-        padding: 5rem 2rem; /* Ajuste para consistência */
+        padding: 5rem 2rem;
     }
     .s-cta h1 {
         font-size: 2rem;

@@ -8,8 +8,6 @@ import iconeCss from '../imgs/icon-case-css.svg'
 import iconeFigma from '../imgs/icon-case-figma.svg'
 import iconeReact from '../imgs/icon-case-react.svg'
 import iconeJavascript from '../imgs/icon-case-js.svg'
-
-
 function SectionCases() {
     const casesData = [
         {
@@ -56,7 +54,7 @@ function SectionCases() {
     return (
         <section className="s-cases" id="cases">
             <div className="container">
-                <div className="cases-title">
+                <div className="cases-title" data-aos="fade-up">
                     <h2>Cases de sucesso</h2>
                     <p>Meus melhores projetos • 2024 ~ 2025</p>
                 </div>

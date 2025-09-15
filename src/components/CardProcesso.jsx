@@ -1,8 +1,8 @@
 import '../css/processo.css';
 
-function CardProcesso({ img, titulo, texto, numero }) {
+function CardProcesso({ img, titulo, texto, numero, aosDelay }) {
   return (
-    <div className="card-processo">
+    <div className="card-processo" data-aos="fade-up" data-aos-delay={aosDelay}>
     <span>{numero}</span>
       <div className="content">
         <img src={img} alt={titulo} />

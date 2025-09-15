@@ -15,20 +15,19 @@ import iconeDev from '../imgs/icon-frontend.svg'
 import iconeJavascript from '../imgs/icon-javascript.svg'
 
 
-
 function About() {
     return (
         <section className="s-about" id="quem-sou-eu">
             <div className="container">
-                <img src={fotoAbout} alt="Foto minha" />
+                <img src={fotoAbout} alt="Foto minha" data-aos="fade-right"/>
                 <div className="content">
-                    <h5>Muito prazer 👋🏻</h5>
-                    <div className="about-title">
+                    <h5 data-aos="fade-left">Muito prazer 👋🏻</h5>
+                    <div className="about-title" data-aos="fade-left" data-aos-delay="100">
                         <h1>Felipe Kenzo</h1>
                         <h2>Desenvolvedor front-end & UI/UX Designer</h2>
                     </div>
-                    <p>Estudo Sistemas de Informação e atuo há 1 ano com Front-end e UI/UX Design. Minha experiência me permite unir código e design para transformar ideias em interfaces digitais eficientes, claras e responsivas. Tenho como foco evoluir continuamente meus processos e conhecimentos em tecnologias como React e Next.js, sempre com o objetivo de criar soluções que fortalecem a presença digital de marcas e negócios.</p>
-                    <div className="social-content">
+                    <p data-aos="fade-left" data-aos-delay="200">Estudo Sistemas de Informação e atuo há 1 ano com Front-end e UI/UX Design. Minha experiência me permite unir código e design para transformar ideias em interfaces digitais eficientes, claras e responsivas. Tenho como foco evoluir continuamente meus processos e conhecimentos em tecnologias como React e Next.js, sempre com o objetivo de criar soluções que fortalecem a presença digital de marcas e negócios.</p>
+                    <div className="social-content" data-aos="fade-left" data-aos-delay="300">
                         <div className="social">
                             <Account
                             icon={iconeLinkedin}
@@ -47,7 +46,7 @@ function About() {
                             />
                             </div>
                     </div>
-                    <div className="grid-labels">
+                    <div className="grid-labels" data-aos="fade-left" data-aos-delay="400">
                             <Label
                             icon={iconeExperiencia}
                             text="1 ano de experiência"
