@@ -1,43 +1,54 @@
-Portfólio Pessoal
+# 🌐 Portfólio Pessoal  
 
-Este é o meu portfólio pessoal, desenvolvido para apresentar meus trabalhos, experiências e trajetória profissional. O design foi criado no Figma e implementado em React, utilizando boas práticas de componentização e organização de código.
+[![Status](https://img.shields.io/badge/status-online-brightgreen)]()  
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)]()  
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)]()  
+[![CSS](https://img.shields.io/badge/CSS-Responsive-1572B6?logo=css3&logoColor=white)]()  
+[![Vite](https://img.shields.io/badge/Vite-Build-646CFF?logo=vite&logoColor=white)]()  
+[![Figma](https://img.shields.io/badge/Figma-Design-F24E1E?logo=figma&logoColor=white)]()  
+[![License](https://img.shields.io/badge/license-MIT-blue)]()  
 
-🔗 Acesse o projeto
+---
 
+## ✨ Sobre o projeto  
 
+Este é o meu **portfólio pessoal**, criado para apresentar meus projetos, experiências e trajetória profissional.  
+O design foi idealizado no **Figma** e implementado em **React**, seguindo boas práticas de **componentização** e **organização de código**.  
 
-🚀 Tecnologias utilizadas
+🔗 **[👉 Acesse o projeto]()**  
 
-Figma – Design da interface
+---
 
-React – Desenvolvimento da aplicação
+## 🚀 Tecnologias  
 
-JavaScript (ES6+) – Lógica e interatividade
+- 🎨 **Figma** – Criação do design da interface  
+- ⚛️ **React** – Desenvolvimento da aplicação  
+- 📜 **JavaScript (ES6+)** – Lógica e interatividade  
+- 💅 **CSS** – Estilização responsiva  
+- ⚡ **Vite** – Build e estrutura inicial do projeto  
 
-CSS - Estilização responsiva
+---
 
-Vite – Build e estrutura inicial
+## 📌 Funcionalidades  
 
-📌 Funcionalidades
+- ✅ Apresentação profissional e seção de contato  
+- ✅ Exibição de projetos com descrição e links  
+- ✅ Layout responsivo para diferentes dispositivos  
+- ✅ Código estruturado em componentes reutilizáveis  
 
-Apresentação profissional e contato
+---
 
-Exibição de projetos com descrição e links
+## 🎨 Design  
 
-Layout responsivo para diferentes dispositivos
+O design foi desenvolvido no **Figma**, priorizando:  
+- 🔹 Navegação clara e intuitiva  
+- 🔹 Hierarquia visual consistente  
+- 🔹 Responsividade e acessibilidade  
 
-Código estruturado em componentes reutilizáveis
+---
 
-🎨 Design
+## 📄 Licença  
 
-O design foi desenvolvido no Figma, priorizando:
+Este projeto é de uso pessoal, mas você pode utilizá-lo como **inspiração** para criar o seu próprio portfólio.  
 
-Clareza na navegação
-
-Boa hierarquia visual
-
-Responsividade e acessibilidade
-
-📄 Licença
-
-Este projeto é de uso pessoal, mas você pode se inspirar para criar o seu.
+---
