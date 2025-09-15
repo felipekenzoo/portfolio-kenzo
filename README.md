@@ -15,7 +15,7 @@
 Este é o meu **portfólio pessoal**, criado para apresentar meus projetos, experiências e trajetória profissional.  
 O design foi idealizado no **Figma** e implementado em **React**, seguindo boas práticas de **componentização** e **organização de código**.  
 
-🔗 **[👉 Acesse o projeto](https://portfolio-kenzo-kohl.vercel.app/)**  
+🔗 **[👉 Acesse o projeto](https://portfolio-kenzo-six.vercel.app/)**  
 
 ---
 
