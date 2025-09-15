@@ -1,4 +1,4 @@
-import Case from '../components/Case.jsx'
+import Case from './Case.jsx'
 import '../css/case.css'
 import imagemGreenTech from '../imgs/case-greentech.jpg'
 import imagemKopu from '../imgs/case-kopu.jpg'
