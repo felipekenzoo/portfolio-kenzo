@@ -1,5 +1,5 @@
 import '../css/diferenciais.css'
-import CardDiferenciais from './cardDiferenciais.jsx';
+import CardDiferenciais from '../CardDiferenciais.jsx';
 
 import iconeFrontEnd from '../imgs/icon-frontend.svg';
 import iconeDev from '../imgs/icon-dev.svg';
