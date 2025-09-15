@@ -2,7 +2,7 @@ import { StrictMode, useEffect } from 'react'
 import { createRoot } from 'react-dom/client'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
@@ -37,6 +37,7 @@ function App() {
       <Faq/>
       <Cta />
       <Footer />
+      <SpeedInsights />
     </>
   );
 }
