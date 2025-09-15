@@ -48,8 +48,7 @@ function Faq() {
                             <div className="bottom">
                                 <h2>Ainda com dúvidas?</h2>
                                 <p>Não encontrou a resposta para sua pergunta?<br/>Você pode entrar em contato comigo pelo meu e-mail, vamos discutir sobre seu projeto!</p>
-                                <a href="mailto:felipe.sunakozawa@gmail.com
-                                ">Me envie um email</a>
+                                <a href="https://www.linkedin.com/in/felipesunakozawa/" target="_blank" rel="noopener noreferrer">Me envie um email</a>
                             </div>
                         </div>
                         <div className="right" data-aos="fade-left">

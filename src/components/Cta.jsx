@@ -9,7 +9,7 @@ function Cta() {
             <div className="container">
                 <h1 data-aos="fade-up">Vamos começar um projeto juntos?</h1>
                 <p data-aos="fade-up" data-aos-delay="100">Do primeiro esboço ao código final, cada detalhe importa. Seu projeto merece ser levado ao <strong>próximo nível.</strong></p>
-                <a href="mailto:felipe.sunakozawa@gmail.com" className="btn-primary" data-aos="fade-up" data-aos-delay="200">Comece um projeto</a>
+                <a href="http://wa.me/5519996840392" target="_blank" rel="noopener noreferrer" className="btn-primary" data-aos="fade-up" data-aos-delay="200">Comece um projeto</a>
             </div>
         </div>
         </>
