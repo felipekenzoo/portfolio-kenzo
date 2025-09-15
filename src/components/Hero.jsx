@@ -52,6 +52,8 @@ function Hero() {
     return (
         <>
             <section className="s-hero">
+                    <div class="background-blob-1"></div>
+                    <div class="background-blob-2"></div>
                 <div className="container">
                     <div className="title">
                         <h5 data-aos="fade-right">Hi, I'm <strong>Felipe Kenzo</strong> 👋🏻</h5>
