@@ -54,7 +54,7 @@ function SectionCases() {
     return (
         <section className="s-cases" id="cases">
             <div className="container">
-                <div className="cases-title" data-aos="fade-up">
+                <div className="cases-title">
                     <h2>Cases de sucesso</h2>
                     <p>Meus melhores projetos • 2024 ~ 2025</p>
                 </div>

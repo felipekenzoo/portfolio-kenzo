@@ -8,12 +8,8 @@ function Case({nome, descricao, imagem, behance, github, labels = [], reverse = 
     return (
         <>
         <div className={`case ${reverse ? 'case-reverse' : ''}`}>
-                <img 
-                    className="case-img" 
-                    src={imagem} alt={nome} 
-                    data-aos={reverse ? "fade-left" : "fade-right"}
-                />
-                <div className="content-case" data-aos={reverse ? "fade-right" : "fade-left"}>
+                <img className="case-img" src={imagem} alt={nome} />
+                <div className="content-case">
                     <h1>{nome}</h1>
                     <div className="grid-labels">
                         {labels.map((label, index) => (

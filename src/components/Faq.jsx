@@ -40,7 +40,7 @@ function Faq() {
         <>
             <section className="s-faq" id="faq">
                 <div className="container">
-                        <div className="left" data-aos="fade-right">
+                        <div className="left">
                             <div className="top">
                                 <h1>Perguntas<br/> frequentes</h1>
                                 <p>Separei aqui as principais dúvidas que clientes costumam ter sobre meu trabalho, prazos e forma de atuação. Assim você já entende como trabalho antes mesmo de entrarmos em contato.</p>
@@ -51,13 +51,12 @@ function Faq() {
                                 <a href="http://wa.me/5519996840392" target="_blank" rel="noopener noreferrer">Me envie uma mensagem</a>
                             </div>
                         </div>
-                        <div className="right" data-aos="fade-left">
+                        <div className="right">
                             {faqData.map((faq, index) => (
                                 <Question
                                     key={index}
                                     question={faq.question}
                                     answer={faq.answer}
-                                    aosDelay={50 * index}
                                     isOpen={openQuestionIndex === index}
                                     onClick={() => handleToggle(index)}
                                 />
