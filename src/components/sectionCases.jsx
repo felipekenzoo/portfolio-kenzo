@@ -15,12 +15,12 @@ function SectionCases() {
             descricao: "A GreenTech nasceu como um projeto acadêmico, mas se transformou em uma verdadeira imersão prática. Fui responsável pelas interfaces e pela experiência do usuário. Além do design, também participei do desenvolvimento front-end, levando o conceito para a realidade com código. O resultado foi um sistema funcional que uniu aprendizado acadêmico e aplicação prática.",
             imagem: imagemGreenTech,
             behance: "https://www.behance.net/gallery/229846519/GreenTech-Marketplace-de-Energia-Solar",
-            github: "https://github.com/felps019/GreenTech",
+            github: "https://github.com/DaviMarqs/green-tech-II",
             labels: [
                 { icon: iconeFigma, text: 'Figma' },
                 { icon: iconeReact, text: 'React' },
                 { icon: iconeCss, text: 'CSS3' },
-                { icon: iconeJavascript, text: 'JavaScript' },
+                { icon: iconeJavascript, text: 'TypeScript' },
             ],
             reverse: false
         },

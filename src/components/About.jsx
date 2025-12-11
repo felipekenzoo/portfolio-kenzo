@@ -23,7 +23,7 @@ function About() {
                 <div className="content">
                     <h5 >Muito prazer 👋🏻</h5>
                     <div className="about-title">
-                        <h1>Felipe Kenzo</h1>
+                        <h1>Felipe Sunakozawa</h1>
                         <h2>Desenvolvedor front-end & UI/UX Designer</h2>
                     </div>
                     <p >Estudo Sistemas de Informação e atuo há 1 ano com Front-end e UI/UX Design. Minha experiência me permite unir código e design para transformar ideias em interfaces digitais eficientes, claras e responsivas. Tenho como foco evoluir continuamente meus processos e conhecimentos em tecnologias como React e Next.js, sempre com o objetivo de criar soluções que fortalecem a presença digital de marcas e negócios.</p>
@@ -31,7 +31,7 @@ function About() {
                         <div className="social">
                             <Account
                             icon={iconeLinkedin}
-                            titulo="Felipe Kenzo"
+                            titulo="Felipe Sunakozawa"
                             url="https://www.linkedin.com/in/felipesunakozawa"
                             />
                             <Account
@@ -49,7 +49,7 @@ function About() {
                     <div className="grid-labels">
                             <Label
                             icon={iconeExperiencia}
-                            text="1 ano de experiência"
+                            text="2 anos de experiência"
                            />
                             <Label
                             icon={iconeDev}

@@ -56,7 +56,7 @@ function Hero() {
                     <div class="background-blob-2"></div>
                 <div className="container">
                     <div className="title">
-                        <h5>Hi, I'm <strong>Felipe Kenzo</strong> 👋🏻</h5>
+                        <h5>Hi, I'm <strong>Felipe Sunakozawa</strong> 👋🏻</h5>
                         <h1>{typedText}<span className="typing-cursor"> </span>
                         </h1>
                         <p>Do código ao design, aplico minha experiência em HTML, CSS, JavaScript e UI/UX para criar soluções digitais completas. Busco sempre o equilíbrio entre funcionalidade, estética e experiência, garantindo que cada projeto seja útil e envolvente.</p>
